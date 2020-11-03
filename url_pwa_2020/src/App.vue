@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <header>
-      <span><i class="fas fa-map-marker-alt"></i> Turismo Guate</span>
-    </header>
     <navbar></navbar>
     <main>
       <div class="container">
@@ -21,6 +18,7 @@ import Copyright from './components/Copyright'
 import footerapp from './components/Footer'
 import Navbar from './components/Navbar'
 import Card from './components/Cards'
+import placeForm from './components/Form'
 
 export default {
   name: 'app',
@@ -29,7 +27,8 @@ export default {
     Copyright, 
     footerapp,
     Navbar,
-    Card
+    Card,
+    placeForm
   },
   data(){
     return {

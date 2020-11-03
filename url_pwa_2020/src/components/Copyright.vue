@@ -1,5 +1,6 @@
 <template>
     <div class="copyright">
+        <p>Cristian Alexander Archila Chaclán</p>
         <p>2020 - URL - Progra Web</p>
     </div>
 </template>

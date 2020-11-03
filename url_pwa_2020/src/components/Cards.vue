@@ -22,6 +22,17 @@ export default {
         addScore(){
             if(!this.rated){
                 this.place.score++;
+                var API_URI = 'http://127.0.0.1:8000/api/places/';
+                var id = String(this.place.id);
+                fetch(API_URI + id, {
+                method: 'PUT',
+                body: {
+                    img_source: this.place.img_source,
+                    title: this.place.title,
+                    description: this.place.description,
+                    score: this.place.score
+                }
+                }).then(res => console.log(res), err=> console.log(err));
             }
             this.rated = true;
         }

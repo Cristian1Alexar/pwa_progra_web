@@ -1,6 +1,7 @@
 <template>
   <div class="footer">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam eos eveniet neque voluptas. Consequatur facilis nesciunt suscipit amet nobis, accusamus placeat, culpa minima quia qui, neque ratione debitis velit nam!</p>
+      <p>Progra Web-2020</p>
+      <p>Cristian Alexander Archila Chaclán</p>
   </div>
 </template>
 
@@ -12,13 +13,13 @@ export default {
 
 <style scoped>
     .footer{
-        background-color: #33495d;
+        background-color: RGB(247, 249, 251);
         width: 100%;
         height: 60px;
         position: fixed;
         bottom: 0;
         }
     p{
-        color: white;
+        color: #191919;
     }
 </style>
